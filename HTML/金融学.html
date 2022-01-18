@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>金融学</title>
+        <meta name="viewport" content="width=device-width,user-scalable=no" />
+        <script src="../JS/cal2.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="../img/xiaohui.jpg"/>
+        <base target="_blank">
+        <style>
+        tr td,th{
+            border:2px solid black;
+        }
+        .mt{
+            border-collapse:collapse;
+        }
+        </style>
+	</head>
+	<body>
+        <h1>一、通识课程</h1>
+        <h2>（一）通识必修课</h2>
+        <h3>1、思政类</h3>
+        <form>
+            <label><input type="checkbox" value="3" onclick="tongshibixiu_adds(this)"/>中国近现代史纲要 <font color="red">3</font></label><br/>
+            <label><input type="checkbox" value="3" onclick="tongshibixiu_adds(this)"/>思想道德修养与法律基础 <font color="red">3</font></label><br/>
+            <label><input type="checkbox" value="3" onclick="tongshibixiu_adds(this)"/>马克思主义基本原理 <font color="red">3</font></label><br/>
+            <label><input type="checkbox" value="5" onclick="tongshibixiu_adds(this)"/>毛泽东思想和中国特色社会主义理论体系概论 <font color="red">5</font></label><br/>
+            <label><input type="checkbox" value="1" onclick="tongshibixiu_adds(this)"/>形势与政策 <font color="red">1</font></label><br/>
+        </form>
+        <h3>2、数学课</h3>
+        <form>
+            <label><input type="checkbox" value="4" onclick="tongshibixiu_adds(this)"/>微积分（1） <font color="red">4</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>微积分（2） <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="4" onclick="tongshibixiu_adds(this)"/>高等数学（1）【非金工降为4学分】 <font color="red">4</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>高等数学（2）【非金工降为2学分】 <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>线性代数 <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>概率论 <font color="red">2</font></label><br/>
+        </form>
+        <h3>3、英语课</h3>
+        <form>
+            <label><input type="checkbox" value="4" onclick="tongshibixiu_adds(this)"/>综合英语（2） <font color="red">4</font></label><br/>
+            <label><input type="checkbox" value="4" onclick="tongshibixiu_adds(this)"/>综合英语（3） <font color="red">4</font></label><br/>
+            <label><input type="checkbox" value="4" onclick="tongshibixiu_adds(this)"/>综合英语（4） <font color="red">4</font></label><br/>
+            <label><input type="checkbox" value="4" onclick="tongshibixiu_adds(this)"/>综合英语（5） <font color="red">4</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>基础 ESP（1） <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>基础 ESP（2） <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>网络视听说 <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>笔译 <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>财经英语（1） <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>财经英语（2） <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>影视英语 <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>口译 <font color="red">2</font></label><br/>
+        </form>
+        <h3>4、体育课</h3>
+        <form>
+            <label><input type="checkbox" value="1" onclick="tongshibixiu_adds(this)"/>体育（1） <font color="red">1</font></label><br/>
+            <label><input type="checkbox" value="1" onclick="tongshibixiu_adds(this)"/>体育（2） <font color="red">1</font></label><br/>
+            <label><input type="checkbox" value="1" onclick="tongshibixiu_adds(this)"/>体育（3） <font color="red">1</font></label><br/>
+            <label><input type="checkbox" value="1" onclick="tongshibixiu_adds(this)"/>体育（4） <font color="red">1</font></label><br/>
+        </form>
+        <h3>5、其他</h3>
+        <form>
+            <label><input type="checkbox" value="3" onclick="tongshibixiu_adds(this)"/>计算机基础 <font color="red">3</font></label><br/>
+            <label><input type="checkbox" value="0.5" onclick="tongshibixiu_adds(this)"/>社会实践（网络教学） <font color="red">0.5</font></label><br/>
+            <label><input type="checkbox" value="0.5" onclick="tongshibixiu_adds(this)"/>社会实践（课外教学） <font color="red">0.5</font></label><br/>
+            <label><input type="checkbox" value="2" onclick="tongshibixiu_adds(this)"/>军训与军事理论 <font color="red">2</font></label><br/>
+            <label><input type="checkbox" value="1" onclick="tongshibixiu_adds(this)"/>创新创业教育 <font color="red">1</font></label><br/>
+        </form>
+        
+        <h2>（二）通识选修课</h2>
+        <div>不知道通选课类型？点击『<a href="teach.html" target="_blank">这里</a>』查看教程</div>
+        <h3>1、自然通选课</h3>
+        <label><input type="checkbox" value="0" onclick="tongshixuanxiu_adds(this)"/> 0 门 <font color="red">0</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="tongshixuanxiu_adds(this)"/> 1 门 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="4" onclick="tongshixuanxiu_adds(this)"/> 2 门 <font color="red">4</font></label><br/>
+        <h3>2、人文通选课</h3>
+        <label><input type="checkbox" value="0" onclick="tongshixuanxiu_adds(this)"/> 0 门 <font color="red">0</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="tongshixuanxiu_adds(this)"/> 1 门 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="4" onclick="tongshixuanxiu_adds(this)"/> 2 门 <font color="red">4</font></label><br/>
+        <h3>1、社会通选课</h3>
+        <label><input type="checkbox" value="0" onclick="tongshixuanxiu_adds(this)"/> 0 门 <font color="red">0</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="tongshixuanxiu_adds(this)"/> 1 门 <font color="red">2</font></label><br/>
+
+        <h1>二、大类必修课</h1>
+        <label><input type="checkbox" value="4" onclick="daleibixiu_adds(this)"/>微观经济学 <font color="red">4</font></label><br/>
+        <label><input type="checkbox" value="4" onclick="daleibixiu_adds(this)"/>宏观经济学 <font color="red">4</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="daleibixiu_adds(this)"/>会计学 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="daleibixiu_adds(this)"/>货币金融学 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="daleibixiu_adds(this)"/>数理统计 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="4" onclick="daleibixiu_adds(this)"/>计量经济学 <font color="red">4</font></label><br/>
+        
+        <h1>三、专业必修课</h1>
+        <label><input type="checkbox" value="3" onclick="zhuanyebixiu_adds(this)"/>投资学 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyebixiu_adds(this)"/>公司金融（英） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyebixiu_adds(this)"/>金融风险管理 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyebixiu_adds(this)"/>商业银行经营学（英） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyebixiu_adds(this)"/>国际金融 <font color="red">3</font></label><br/>
+        
+        <h1>四、专业选修课</h1>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>国际贸易（英） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>财政学 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>国际结算（含实训） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>金融工程学（英） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>财富管理 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>财务报表分析 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="4" onclick="zhuanyexuanxiu_adds(this)"/>高等代数 <font color="red">4</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>C++与面向对象程序设计 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>风险管理（英） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>网络金融 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>中级财务会计 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>Python语言（实训） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>保险学原理（英） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>利息理论 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>银行会计 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>产业经济学 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>发展经济学 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>金融计量学 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>金融经济学 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>金融科技概论 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>金融伦理学 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>金融数值分析（实训） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>区域经济学 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>社会主义市场经济学 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="4" onclick="zhuanyexuanxiu_adds(this)"/>金融学进阶 <font color="red">4</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>数学进阶 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>投资银行学 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>常微分方程 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>固定收益证券 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>国际商法 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>国际投资 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>金融监督 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>金融史 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>金融衍生产品 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>金融营销与管理 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="4" onclick="zhuanyexuanxiu_adds(this)"/>经济学进阶 <font color="red">4</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>随机过程 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>保险精算（实训） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="1" onclick="zhuanyexuanxiu_adds(this)"/>创业设计 <font color="red">1</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>国际贸易实务（实训） <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>行为金融学 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>金融企业ERP沙盘模拟经营（实训） <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>金融前沿与热点讲座 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>量化投资分析（实训） <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>企业法 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>区块链 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>商业银行综合实务（实训） <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>私人银行 <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>外汇交易与管理（英） <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>中央银行学 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>税法 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="zhuanyexuanxiu_adds(this)"/>社会保障学 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>企业行为模拟（实训） <font color="red">2</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyexuanxiu_adds(this)"/>企业资源计划（ERP） <font color="red">2</font></label><br/>
+        
+        <h1>五、跨专业选修课</h1>
+        <label><input type="checkbox" value="3" onclick="kuazhuanyexuanxiu_adds(this)"/>财经论文写作 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="kuazhuanyexuanxiu_adds(this)"/>大数据分析 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="kuazhuanyexuanxiu_adds(this)"/>管理学原理 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="kuazhuanyexuanxiu_adds(this)"/>西方哲学概论 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="kuazhuanyexuanxiu_adds(this)"/>心理学导论 <font color="red">3</font></label><br/>
+        <label><input type="checkbox" value="3" onclick="kuazhuanyexuanxiu_adds(this)"/>运筹学 <font color="red">3</font></label><br/>
+        
+        <h1>六、专业实习</h1>
+        <label><input type="checkbox" value="0" onclick="zhuanyeshixi_adds(this)"/>未完成 <font color="red">0</font></label><br/>
+        <label><input type="checkbox" value="2" onclick="zhuanyeshixi_adds(this)"/>完成 <font color="red">2</font></label><br/>
+        
+        <h1>七、毕业论文</h1>
+        <label><input type="checkbox" value="0" onclick="biyelunwen_adds(this)"/>未完成 <font color="red">0</font></label><br/>
+        <label><input type="checkbox" value="6" onclick="biyelunwen_adds(this)"/>完成 <font color="red">6</font></label><br/>
+        
+        <br/><br/>
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="submit1" value="提交" onclick="calculate_all()" style="width: 8.125rem; height: 3.125rem; font-size: 1.25rem;"></label>
+        <p>『提交后下表会发生相应变化』</p>
+        <br/>
+        <table id="change1" class="mt">
+            <thead>
+                <tr>
+                    <th colspan="2">课程类别</th>
+                    <th>已修学分</th>
+                    <th>需修学分</th>
+                </tr>
+            </thead>
+            <tbody id="change2">
+                <tr>
+                    <td rowspan="2">通识课程</td>
+                    <td>必修课</td>
+                    <td>0</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>选修课</td>
+                    <td>0</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>大类课程</td>
+                    <td>必修课</td>
+                    <td>0</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">专业课程</td>
+                    <td>专业必修课</td>
+                    <td>0</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>专业选修课</td>
+                    <td>0</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>跨专业选修课</td>
+                    <td>0</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>专业实习</td>
+                    <td>0</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>毕业论文</td>
+                    <td>0</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+        </table>
+        <br/><br/><br/><br/><br/>
+	</body>
+</html>
